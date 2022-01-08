@@ -7,7 +7,6 @@
 #SBATCH -e /home/eyzhang/clusterrepo/myerrorfile.err
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=eyzhang@mit.edu
-#SBATCH --output=trial.log
 
 module load julia/1.5.2
 
